@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	var list = []string{"flower", "flowed"}
+	fmt.Println(Easy.LongestCommonPrefix(list))
 
-	fmt.Println(Easy.RomanToIntImprovment("LVIII"))
 }
