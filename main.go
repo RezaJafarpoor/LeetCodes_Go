@@ -1,8 +1,11 @@
 package main
 
-import "LeetCodes/Easy"
+import (
+	"LeetCodes/Easy"
+	"fmt"
+)
 
 func main() {
 
-	println(Easy.PalindromeFast(121))
+	fmt.Println(Easy.RomanToIntImprovment("LVIII"))
 }
